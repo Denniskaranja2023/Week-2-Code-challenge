@@ -1,0 +1,100 @@
+#apphead{
+    display: flex;
+    justify-content:space-between;
+    border: 2px solid black;
+    align-items: center;
+    background-color:rgba(255, 255, 0, 0.753);
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+    border-radius: 0.5rem;
+    margin-right: 5px;
+    font-size: small;
+
+}
+body{
+    background-color:rgba(0, 0, 255, 0.712);
+}
+#guestList{
+    background-color: rgba(255, 255, 0, 0.753);
+    border: 2px solid black;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    width:90%;
+    margin-left: 5%;
+    border-radius: 1rem;
+    font-size: large;
+}
+
+#eventForm{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 5%;
+    font-size:medium;
+}
+#eventType{
+   height: 5vh;
+   width: 35vw;
+   font-style: italic;
+  background-color: rgba(243, 234, 234, 0.842);
+   border-radius: 0.5rem;
+   color: black;
+   border: 1px solid black;
+   margin-right: 5%;
+   margin-left: 1%;
+   font-size:medium;
+}
+
+#eventButton{
+    height: 5vh;
+   width: 20vw;
+   font-style: italic;
+  background-color: rgba(243, 234, 234, 0.842);
+   border-radius: 0.5rem;
+   color: black;
+   border: 1px solid black;
+   font-size:medium;
+
+}
+#guestForm{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+#guestAdd{
+    height: 5vh;
+   font-style: italic;
+   background-color: rgba(243, 234, 234, 0.842);
+   width: 35vw;
+   border-radius: 0.5rem;
+   border: 1px solid black;
+   color: black;
+   margin-right: 5%;
+   margin-left: 1%;
+   font-size:medium;
+}
+#guestButton{
+   height: 5vh;
+   width: 20vw;
+   font-style: italic;
+  background-color: rgba(243, 234, 234, 0.842);
+   border-radius: 0.5rem;
+   color: black;
+   border: 1px solid black;
+   font-size:medium;
+
+}
+
+#deletedGuests{
+    background-color: rgba(255, 255, 0, 0.753);
+    border: 2px solid black;
+    height: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    width:90%;
+    margin-left: 5%;
+    border-radius: 1rem;
+    font-size:medium;
+}

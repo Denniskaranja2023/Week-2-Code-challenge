@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event guest manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="apphead">
+        <p><span style="color:blue; font-size:large; margin-left:0.5rem ;">Invite</span><span style="color: black; font-size:large ;">Manager</span></p>
+        <p><span style="color: black;">Your go-to </span><span style="color: blue; margin-right: 1rem;">event guest manager</span></p>
+    </header>  
+    <div id="guestList">
+
+    </div>
+    <form id="eventForm">
+      <label for="eventType" style="color: white; font-size:medium; font-weight: 700; margin-top: 1%; margin-left:10% ;"> Event Type:</label>
+      <input type="text" placeholder="Birthday party" id="eventType">
+      <input type="submit"  id="eventButton">
+    </form>
+    <form id="guestForm">
+      <label for="guestAdd" style="color: white; font-size:medium; font-weight: 700; margin-top: 1%; margin-left:10% ;"> Guest name:</label>
+      <input type="text" placeholder="Mr. Miguna Miguna" id="guestAdd">
+      <input type="submit"  id="guestButton">
+    </form>
+     <div id="deletedGuests">
+
+     </div>
+    <script src="./index.js"></script>
+</body>
+</html>
