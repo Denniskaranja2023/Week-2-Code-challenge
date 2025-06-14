@@ -10,21 +10,23 @@
     border-radius: 0.5rem;
     margin-right: 5px;
     font-size: small;
+}
 
-}
 body{
-    background-color:rgba(0, 0, 255, 0.712);
+    background-color: rgba(128, 0, 128, 0.671)
 }
+
 #guestList{
     background-color: rgba(255, 255, 0, 0.753);
     border: 2px solid black;
-    height: 40vh;
+    height: 80vh;
     margin-top: 5vh;
     margin-bottom: 3vh;
     width:90%;
-    margin-left: 5%;
+    margin-left:5%;
     border-radius: 1rem;
     font-size: large;
+    text-align: center;
 }
 
 #eventForm{
@@ -56,7 +58,16 @@ body{
    color: black;
    border: 1px solid black;
    font-size:medium;
-
+}
+.resetButton{
+     height: 5vh;
+   width: 10vw;
+  background-color: rgba(243, 234, 234, 0.842);
+   border-radius: 0.5rem;
+   color: black;
+   border: 1px solid black;
+   font-size:medium;
+   margin-left: 1%;
 }
 #guestForm{
     display:flex;
@@ -84,17 +95,23 @@ body{
    color: black;
    border: 1px solid black;
    font-size:medium;
-
 }
 
 #deletedGuests{
     background-color: rgba(255, 255, 0, 0.753);
     border: 2px solid black;
-    height: 20vh;
+    height: 55 vh;
     margin-top: 5vh;
     margin-bottom: 3vh;
-    width:90%;
-    margin-left: 5%;
+    width:60%;
+    margin-left: 20%;
     border-radius: 1rem;
     font-size:medium;
+    text-align: center;
+}
+.attending{
+    background-color: rgba(15, 128, 0, 0.541);
+}
+.not-attending{
+    background-color: rgba(207, 11, 11, 0.815);
 }

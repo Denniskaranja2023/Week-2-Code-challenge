@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event guest manager</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
     <header id="apphead">
-        <p><span style="color:blue; font-size:large; margin-left:0.5rem ;">Invite</span><span style="color: black; font-size:large ;">Manager</span></p>
-        <p><span style="color: black;">Your go-to </span><span style="color: blue; margin-right: 1rem;">event guest manager</span></p>
+        <p><span style="color:purple; font-size:large; margin-left:0.5rem ;">Invite</span><span style="color: black; font-size:large ;">Manager</span></p>
+        <p><span style="color: black;">Your go-to </span><span style="color: purple; margin-right: 1rem;">event guest manager</span></p>
     </header>  
     <div id="guestList">
 
     </div>
     <form id="eventForm">
-      <label for="eventType" style="color: white; font-size:medium; font-weight: 700; margin-top: 1%; margin-left:10% ;"> Event Type:</label>
-      <input type="text" placeholder="Birthday party" id="eventType">
+      <label for="eventType" style="color: white; font-size:medium; font-weight: 700; margin-top: 1%; margin-left:1% ;"> Event Type:</label>
+      <input type="text" placeholder="e.g Birthday party" id="eventType" style="text-align: center;">
       <input type="submit"  id="eventButton">
+      <input type="reset"  class="resetButton">
     </form>
     <form id="guestForm">
-      <label for="guestAdd" style="color: white; font-size:medium; font-weight: 700; margin-top: 1%; margin-left:10% ;"> Guest name:</label>
-      <input type="text" placeholder="Mr. Miguna Miguna" id="guestAdd">
+      <label for="guestAdd" style="color: white; font-size:medium; font-weight: 700; margin-top: 1%; margin-left:1% ;"> Guest name:</label>
+      <input type="text" placeholder="e.g Mr.Miguna Miguna" id="guestAdd" style="text-align: center;">
       <input type="submit"  id="guestButton">
+      <input type="reset"  class="resetButton">
     </form>
      <div id="deletedGuests">
-
+        <h4 style="text-decoration: underline;">Deleted guests</h4>
      </div>
-    <script src="./index.js"></script>
+    
 </body>
 </html>
