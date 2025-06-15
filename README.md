@@ -2,11 +2,12 @@
 
  An easy-to-use guest list manager application built on JS and styled using CSS with event organizers in mind
  
-                                 By Dennis Karanja
+ By Dennis Karanja
         
  Description:
 
- The Invite manager app is a tool relevant for event managers. Users can log in the guests expected in an event, delete guests from that list, mark guests RSVPs and view the guests previously deleted. 
+ The Invite manager app is a tool relevant for event managers. Users can log in the guests expected in an event, delete guests from that list, mark guests RSVPs and view the guests previously 
+ deleted. 
               
  Screenshots:
 
@@ -47,15 +48,15 @@
 
   1.clone this repository using: 
   
- -git@github.com:Denniskaranja2023/Week-2-Code-challenge.git-
+            git@github.com:Denniskaranja2023/Week-2-Code-challenge.git
  
   2.Navigate to the project directory:
  
-  -cd Week-2-Code-challenge-
+            cd Week-2-Code-challenge
  
   3.Open the index.html file to view content of page: 
    
-   -open.index.html-
+            open.index.html
  
 
  Technologies used:
