@@ -1,8 +1,8 @@
  INVITE MANAGER APP
 
- An easy-to-use guest list manager application built on JS and styled using CSS with event organisers in mind
+ An easy-to-use guest list manager application built on JS and styled using CSS with event organizers in mind
  
-        -By Dennis Karanja-
+                                 By Dennis Karanja
         
  Description:
 
@@ -27,13 +27,13 @@
  
  Requirements
 
- You will need a computer,tablet or phone and a ccess to the internet
+ You will need a computer,tablet or phone and access to the internet
 
  View Live site.
 
  You may view the live site of the application through https://denniskaranja2023.github.io/Week-2-Code-challenge/ 
  
- -First input the event type e.g Birthday to generate a title for your list. THe title may be deleted by clicking it
+ -First input the event type e.g Birthday to generate a title for your list. The title may be deleted by clicking it
  
  -Enter a guest input and see the name appear on the guest list window under your event title
  
@@ -45,11 +45,17 @@
 
  Installation Process
 
- -1.clone this repository using: git@github.com:Denniskaranja2023/Week-2-Code-challenge.git-
+  1.clone this repository using: 
+  
+ -git@github.com:Denniskaranja2023/Week-2-Code-challenge.git-
  
- -2.Navigate to the project directory: cd Week-2-Code-challenge-
+  2.Navigate to the project directory:
  
- -3.Open the index.html file to view content of page: open.index.html-
+  -cd Week-2-Code-challenge-
+ 
+  3.Open the index.html file to view content of page: 
+   
+   -open.index.html-
  
 
  Technologies used:
