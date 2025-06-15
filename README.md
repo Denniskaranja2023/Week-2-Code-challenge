@@ -9,8 +9,9 @@
  The Invite manager app is a tool relevant for event managers. Users can log in the guests expected in an event, delete guests from that list, mark guests RSVPs and view the guests previously deleted. 
               
  Screenshots:
- 
- ![Invite manager](<Screenshot from 2025-06-15 15-48-50.png>)
+
+ ![Screenshot from 2025-06-15 15-48-50](https://github.com/user-attachments/assets/18e11e31-88d4-46cc-9e22-8eddd6d4f45a)
+
 
  Features:
 
